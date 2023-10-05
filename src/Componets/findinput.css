@@ -1,0 +1,43 @@
+.main-input-div {
+  display: flex;
+  padding: 10px 15px 10px 15px;
+  background-color: rgb(32, 32, 32);
+  border-radius: 7px;
+}
+.main-input-div .text-div input {
+  width: 90px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(32, 32, 32);
+  color: rgb(234, 231, 231);
+}
+.main-input-div .stats {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  color: rgb(234, 231, 231);
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.main-input-div .stats h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-input-div .icon-div {
+  margin: 3px;
+  margin-top: 7px;
+}
+.main-input-div .icon-div button {
+  font-size: 18px;
+  color: rgb(149, 147, 147);
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.main-input-div .icon-div button:hover {
+  color: white;
+}
